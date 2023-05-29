@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('ZoeBg.png');
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            cursor: url('cursor.png'), auto;
+        }
+        form {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-image: url('ZoeBg.jpg');
+            background-color: #723e10;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+            font-family: 'Press Start 2P', cursive;
+            font-size: 24px;
+            line-height: 1.5;
+            color: #fff;
+            text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+            border: 10px solid #4e2c14;
+            box-sizing: border-box;
+    
+            
+        }
+        label, input[type="text"], input[type="password"], input[type="submit"], button {
+            display: block;
+            width: 100%;
+            font-weight: bold;
+            font-size: 24px;
+            color: #fff;
+            font-family: 'Press Start 2P', cursive;
+            line-height: 1.5;
+        }
+        input[type="text"], input[type="password"] {
+            border: none;
+            border-bottom: 2px solid #fff;
+            background-color: #fff; /* changed from transparent to white */
+            color: #000; /* changed from white to black */
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            padding: 10px;
+            box-sizing: border-box;
+            box-shadow: none;
+            font-family: 'Press Start 2P', cursive;
+            line-height: 1.5;
+            outline: none;
+        }
+        input[type="submit"], button {
+            background-color: #4CAF50;
+            color: #fff;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 24px;
+            font-weight: bold;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+            font-family: 'Press Start 2P', cursive;
+            line-height: 1.5;
+            text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+            margin-bottom: 10px;
+        }
+        input[type="submit"]:hover, button:hover {
+            background-color: #3e8e41;
+        }
+        button#new-button1 {
+            background-color: blue;
+        }
+        /* Added CSS */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-size: cover;
+        }
+        .box {
+			position: absolute;
+			top: 20px;
+			left: 20px;
+        }
+        #back {
+			background-color: red;
+			color: white;
+			font-family: 'Press Start 2P', cursive;
+			font-size: 20px;
+			padding: 10px 15px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}    
+    </style>
+     <link href=""https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">"
+</head>
+<body>
+    <div class="box">
+        <button id="back">BACK</button>   
+    </div>
+        
+        <form>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" placeholder="Enter username">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" placeholder="Enter password">
+          <input type="submit" value="Log In">
+          <button id="new-button1">I'm New</button>
+        </form>
+    </body>
+    </html>    
+      
+      
+    
+

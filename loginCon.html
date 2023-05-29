@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form</title>
+	<style>
+		body {
+			background-image: url('CloudBG.jpg');
+			background-size: cover;
+			background-position: center center;
+			background-repeat: no-repeat;
+		}
+		form {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			background-color: #8b572a;
+			padding: 40px;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+			font-family: 'Press Start 2P', cursive;
+			font-size: 24px;
+			line-height: 1.5;
+			color: #fff;
+			text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+			border: 10px solid #4e2c14;
+			box-sizing: border-box;
+		}
+		label, input[type="text"], input[type="password"], input[type="submit"] {
+			display: block;
+			width: 100%;
+			margin-bottom: 20px;
+			font-size: 24px;
+			font-weight: bold;
+			background-color: #fff;
+			color: #000;
+			border: none;
+			border-radius: 5px;
+			padding: 10px;
+			box-sizing: border-box;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+			font-family: 'Press Start 2P', cursive;
+			line-height: 1.5;
+		}
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: #fff;
+			cursor: pointer;
+			border: none;
+			border-radius: 5px;
+			padding: 10px;
+			font-size: 24px;
+			font-weight: bold;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+			font-family: 'Press Start 2P', cursive;
+			line-height: 1.5;
+			text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+		}
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+<body>
+	<form>
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username">
+
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password">
+
+		<input type="submit" value="Login">
+	</form>
+</body>
+</html>

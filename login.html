@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+    <style>
+      body {
+        background-image: url("heartheart.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      label {
+        font-size: 24px;
+      }
+      input[type="text"], input[type="password"] {
+        font-size: 24px;
+        padding: 10px;
+        margin: 10px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+        width: 300px;
+      }
+      button[type="submit"] {
+        background-image: url("login-button-image.jpg");
+        background-size: cover;
+        background-position: center;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 20px;
+        cursor: pointer;
+        width: 200px;
+        height: 60px;
+        background-color: purple; /* add this line to change the background color */
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" placeholder="Enter your username">
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password">
+
+      <button type="submit" value="Log In">Log In</button>
+    </form>
+  </body>
+</html>
+
+
+
